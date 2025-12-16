@@ -251,7 +251,6 @@ const Hospitals: React.FC = () => {
               return (
                 <Col key={item.id} xs={24} sm={12} md={8} lg={8} xl={6}>
                   <Card
-                    hoverable
                     style={{
                       height: "100%",
                       display: "flex",
