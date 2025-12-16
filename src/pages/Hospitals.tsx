@@ -10,8 +10,11 @@ import {
   Col,
   Input,
   Pagination,
+  Modal,
+  Tooltip,
 } from "antd";
 import { hospitalsData } from "../data/mockData";
+import { Hospital } from "../types"; // Đảm bảo import đúng type
 import {
   EnvironmentTwoTone,
   PhoneFilled,
@@ -19,6 +22,7 @@ import {
   GlobalOutlined,
   MedicineBoxOutlined,
   SearchOutlined,
+  EnvironmentOutlined,
 } from "@ant-design/icons";
 
 const { Title, Text } = Typography;
@@ -50,6 +54,12 @@ const Hospitals: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [pageSize, setPageSize] = useState<number>(12);
 
+  // Map Modal State
+  const [isMapOpen, setIsMapOpen] = useState(false);
+  const [selectedHospital, setSelectedHospital] = useState<Hospital | null>(
+    null
+  );
+
   const cities = useMemo(() => {
     const uniqueCities = Array.from(new Set(hospitalsData.map((h) => h.city)));
     return uniqueCities.sort((a, b) => {
@@ -71,7 +81,7 @@ const Hospitals: React.FC = () => {
     return matchCity && matchType && matchSearch;
   });
 
-  // 2. Pagination Logic (Using State)
+  // 2. Pagination Logic
   const startIndex = (currentPage - 1) * pageSize;
   const endIndex = startIndex + pageSize;
   const currentData = filteredData.slice(startIndex, endIndex);
@@ -90,6 +100,12 @@ const Hospitals: React.FC = () => {
           label: "Công lập",
         };
     }
+  };
+
+  // Helper function to handle map opening
+  const handleOpenMap = (hospital: Hospital) => {
+    setSelectedHospital(hospital);
+    setIsMapOpen(true);
   };
 
   return (
@@ -219,7 +235,7 @@ const Hospitals: React.FC = () => {
         </Row>
       </Card>
 
-      {/* Manual Grid Implementation */}
+      {/* Grid Implementation */}
       {filteredData.length === 0 ? (
         <Empty
           image={Empty.PRESENTED_IMAGE_SIMPLE}
@@ -235,6 +251,7 @@ const Hospitals: React.FC = () => {
               return (
                 <Col key={item.id} xs={24} sm={12} md={8} lg={8} xl={6}>
                   <Card
+                    hoverable
                     style={{
                       height: "100%",
                       display: "flex",
@@ -262,46 +279,82 @@ const Hospitals: React.FC = () => {
 
                     {/* Name & Address */}
                     <div style={{ flex: 1, marginBottom: 16 }}>
-                      <Text
-                        strong
+                      <Tooltip title={item.name}>
+                        <Text
+                          strong
+                          style={{
+                            fontSize: 16,
+                            color: "#1f1f1f",
+                            lineHeight: 1.4,
+                            display: "-webkit-box",
+                            WebkitLineClamp: 2,
+                            WebkitBoxOrient: "vertical",
+                            overflow: "hidden",
+                            minHeight: 44, // Ensure consistent height
+                          }}
+                        >
+                          {item.name}
+                        </Text>
+                      </Tooltip>
+                      <div
                         style={{
-                          fontSize: 16,
-                          color: "#1f1f1f",
-                          lineHeight: 1.4,
-                          display: "block",
+                          marginTop: 12,
+                          display: "flex",
+                          gap: 8,
+                          alignItems: "flex-start",
                         }}
                       >
-                        {item.name}
-                      </Text>
-                      <div style={{ marginTop: 8, display: "flex", gap: 8 }}>
                         <EnvironmentTwoTone
                           twoToneColor="#eb2f96"
                           style={{ marginTop: 3, flexShrink: 0 }}
                         />
-                        <Text type="secondary" style={{ fontSize: 13 }}>
+                        <Text
+                          type="secondary"
+                          style={{
+                            fontSize: 13,
+                            display: "-webkit-box",
+                            WebkitLineClamp: 2,
+                            WebkitBoxOrient: "vertical",
+                            overflow: "hidden",
+                          }}
+                        >
                           {item.address}
                         </Text>
                       </div>
                     </div>
 
-                    {/* Footer Action */}
-                    <Button
-                      type="primary"
-                      ghost
-                      icon={<PhoneFilled />}
-                      block
-                      href={`tel:${item.phone}`}
-                      style={{ borderRadius: 8, fontWeight: 600 }}
-                    >
-                      {item.phone}
-                    </Button>
+                    {/* Footer Actions */}
+                    <Row gutter={8}>
+                      <Col span={12}>
+                        <Button
+                          icon={<EnvironmentOutlined />}
+                          block
+                          onClick={() => handleOpenMap(item)}
+                          style={{ borderRadius: 6 }}
+                        >
+                          Bản đồ
+                        </Button>
+                      </Col>
+                      <Col span={12}>
+                        <Button
+                          type="primary"
+                          ghost
+                          icon={<PhoneFilled />}
+                          block
+                          href={`tel:${item.phone}`}
+                          style={{ borderRadius: 6, fontWeight: 600 }}
+                        >
+                          Gọi
+                        </Button>
+                      </Col>
+                    </Row>
                   </Card>
                 </Col>
               );
             })}
           </Row>
 
-          {/* Refactored Pagination: Bottom Right & Enhanced */}
+          {/* Pagination */}
           <div
             style={{
               marginTop: 32,
@@ -319,7 +372,7 @@ const Hospitals: React.FC = () => {
               }}
               showSizeChanger
               locale={{ items_per_page: "/ trang" }}
-              pageSizeOptions={["12", "24", "48", "96"]} // Multiples of 12 for grid
+              pageSizeOptions={["12", "24", "48", "96"]}
               showTotal={(total, range) => (
                 <Text type="secondary">
                   Hiển thị {range[0]}-{range[1]} của <strong>{total}</strong> cơ
@@ -330,6 +383,62 @@ const Hospitals: React.FC = () => {
           </div>
         </>
       )}
+
+      {/* MAP MODAL */}
+      <Modal
+        title={
+          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+            <EnvironmentTwoTone twoToneColor="#eb2f96" />
+            <span>{selectedHospital?.name}</span>
+          </div>
+        }
+        open={isMapOpen}
+        onCancel={() => setIsMapOpen(false)}
+        footer={[
+          <Button key="close" onClick={() => setIsMapOpen(false)}>
+            Đóng
+          </Button>,
+          <Button
+            key="google"
+            type="primary"
+            href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+              (selectedHospital?.name || "") +
+                " " +
+                (selectedHospital?.address || "")
+            )}`}
+            target="_blank"
+          >
+            Mở trên Google Maps
+          </Button>,
+        ]}
+        width={800}
+        centered
+        styles={{ body: { padding: 0 } }}
+      >
+        {selectedHospital && (
+          <div
+            style={{ width: "100%", height: "450px", background: "#f0f2f5" }}
+          >
+            <iframe
+              width="100%"
+              height="100%"
+              frameBorder="0"
+              scrolling="no"
+              marginHeight={0}
+              marginWidth={0}
+              title={selectedHospital.name}
+              src={`https://maps.google.com/maps?q=${encodeURIComponent(
+                selectedHospital.name +
+                  " " +
+                  selectedHospital.address +
+                  " " +
+                  cityDisplayMap[selectedHospital.city] || ""
+              )}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
+              style={{ display: "block" }}
+            ></iframe>
+          </div>
+        )}
+      </Modal>
     </div>
   );
 };

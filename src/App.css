@@ -41,6 +41,14 @@ body {
   box-shadow: 0 2px 4px rgba(0, 80, 179, 0.2);
 }
 
+.ant-btn-default {
+  border-color: var(--primary-color) !important;
+}
+
+.ant-btn-default span {
+  color: var(--primary-color) !important;
+}
+
 .ant-btn {
   color: var(--accent-color) !important;
 }
