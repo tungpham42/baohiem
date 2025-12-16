@@ -1,3 +1,4 @@
+// src/App.tsx
 import React from "react";
 import { Layout, Menu, ConfigProvider, FloatButton } from "antd";
 import {
@@ -6,9 +7,10 @@ import {
   Route,
   Link,
   useLocation,
-  Navigate,
+  useNavigate,
 } from "react-router-dom";
 import {
+  HomeOutlined,
   BookOutlined,
   MedicineBoxOutlined,
   SafetyCertificateFilled,
@@ -16,6 +18,7 @@ import {
   ReconciliationOutlined,
 } from "@ant-design/icons";
 
+import Home from "./pages/Home"; // Import the new Home page
 import Glossary from "./pages/Glossary";
 import Hospitals from "./pages/Hospitals";
 import ClaimsProcess from "./pages/ClaimsProcess";
@@ -25,8 +28,14 @@ const { Header, Content, Footer } = Layout;
 
 const AppContent: React.FC = () => {
   const location = useLocation();
+  const navigate = useNavigate(); // Hook for navigation
 
   const menuItems = [
+    {
+      key: "/",
+      icon: <HomeOutlined />,
+      label: <Link to="/">Trang chủ</Link>,
+    },
     {
       key: "/thuat-ngu",
       icon: <BookOutlined />,
@@ -66,6 +75,7 @@ const AppContent: React.FC = () => {
             marginRight: 40,
             cursor: "pointer",
           }}
+          onClick={() => navigate("/")} // Make logo clickable to go Home
         >
           <SafetyCertificateFilled
             style={{ fontSize: 28, color: "#0050b3", marginRight: 8 }}
@@ -105,7 +115,8 @@ const AppContent: React.FC = () => {
         }}
       >
         <Routes>
-          <Route path="/" element={<Navigate to="/thuat-ngu" replace />} />
+          {/* Changed from Navigate to Home component */}
+          <Route path="/" element={<Home />} />
           <Route path="/thuat-ngu" element={<Glossary />} />
           <Route path="/benh-vien" element={<Hospitals />} />
           <Route path="/boi-thuong" element={<ClaimsProcess />} />
