@@ -1,0 +1,73 @@
+/* Import Work Sans font */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #0050b3; /* Deep Trust Blue */
+  --accent-color: #e6f7ff; /* Soft Blue Background */
+  --text-color: #262626;
+  --bg-color: #f0f2f5;
+  --card-radius: 12px;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Overriding Ant Design for a "Cozy" feel */
+.ant-layout {
+  background: var(--bg-color) !important;
+}
+
+.ant-card {
+  border-radius: var(--card-radius) !important;
+  box-shadow: var(--shadow-sm);
+  border: none !important;
+  overflow: hidden;
+}
+
+.ant-card:hover {
+  box-shadow: var(--shadow-md) !important;
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+.ant-btn-primary {
+  background-color: var(--primary-color) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 4px rgba(0, 80, 179, 0.2);
+}
+
+.ant-btn {
+  color: var(--accent-color) !important;
+}
+
+.ant-input-search .ant-input {
+  border-radius: 8px 0 0 8px !important;
+}
+
+.ant-input-search .ant-btn {
+  border-radius: 0 8px 8px 0 !important;
+}
+
+.ant-select-selector {
+  border-radius: 8px !important;
+}
+
+.page-header-container {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.page-title {
+  color: var(--primary-color) !important;
+  margin-bottom: 8px !important;
+}
+
+.page-subtitle {
+  color: #666;
+  font-size: 16px;
+}
