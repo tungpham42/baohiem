@@ -163,7 +163,7 @@ const Home: React.FC = () => {
           <Col xs={12} md={6} style={{ textAlign: "center" }}>
             <Statistic
               title="Thuật ngữ"
-              value={300}
+              value={150}
               suffix="+"
               styles={{ content: { color: "#0050b3", fontWeight: 700 } }}
             />
@@ -171,7 +171,7 @@ const Home: React.FC = () => {
           <Col xs={12} md={6} style={{ textAlign: "center" }}>
             <Statistic
               title="Cơ sở Y tế"
-              value={200}
+              value={250}
               suffix="+"
               styles={{ content: { color: "#0050b3", fontWeight: 700 } }}
             />
@@ -179,7 +179,7 @@ const Home: React.FC = () => {
           <Col xs={12} md={6} style={{ textAlign: "center" }}>
             <Statistic
               title="Hài lòng"
-              value={80}
+              value={84}
               suffix="%"
               styles={{ content: { color: "#0050b3", fontWeight: 700 } }}
             />
