@@ -107,7 +107,7 @@ const Glossary: React.FC = () => {
           Từ điển Bảo hiểm
         </Title>
         <Text className="page-subtitle">
-          Giải thích hơn 500 thuật ngữ chuyên ngành một cách đơn giản và dễ hiểu
+          Giải thích hơn 400 thuật ngữ chuyên ngành một cách đơn giản và dễ hiểu
           nhất.
         </Text>
       </div>
