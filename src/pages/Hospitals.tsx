@@ -65,7 +65,8 @@ const Hospitals: React.FC = () => {
     const matchType = type ? h.type === type : true;
     const matchSearch = searchText
       ? h.name.toLowerCase().includes(searchText.toLowerCase()) ||
-        h.address.toLowerCase().includes(searchText.toLowerCase())
+        h.address.toLowerCase().includes(searchText.toLowerCase()) ||
+        h.phone.toLowerCase().includes(searchText.toLowerCase())
       : true;
     return matchCity && matchType && matchSearch;
   });
