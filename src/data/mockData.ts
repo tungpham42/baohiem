@@ -490,6 +490,214 @@ export const termsData: Term[] = [
     definition: "Bảo hiểm cho thiệt hại do lũ lụt gây ra cho nhà cửa, tài sản.",
     category: "General",
   },
+  {
+    id: "g71",
+    term: "Thế quyền (Subrogation)",
+    definition:
+      "Quyền của công ty bảo hiểm đòi bên thứ ba bồi hoàn sau khi đã trả tiền bồi thường cho người được bảo hiểm.",
+    category: "General",
+  },
+  {
+    id: "g72",
+    term: "Nguyên nhân gần (Proximate Cause)",
+    definition:
+      "Nguyên nhân chủ yếu, trực tiếp và hiệu lực nhất gây ra tổn thất, không nhất thiết là nguyên nhân đầu tiên hay cuối cùng.",
+    category: "General",
+  },
+  {
+    id: "g73",
+    term: "Bảo hiểm trùng (Double Insurance)",
+    definition:
+      "Tình trạng một đối tượng được bảo hiểm bởi hai hay nhiều hợp đồng cho cùng một rủi ro và cùng một quyền lợi.",
+    category: "General",
+  },
+  {
+    id: "g74",
+    term: "Tái bảo hiểm (Reinsurance)",
+    definition:
+      "Việc doanh nghiệp bảo hiểm chuyển nhượng một phần trách nhiệm đã nhận cho doanh nghiệp bảo hiểm khác để phân tán rủi ro.",
+    category: "General",
+  },
+  {
+    id: "g75",
+    term: "Đồng bảo hiểm (Co-insurance)",
+    definition:
+      "Nhiều doanh nghiệp bảo hiểm cùng bảo hiểm cho một đối tượng theo một tỷ lệ nhất định trong cùng một hợp đồng.",
+    category: "General",
+  },
+  {
+    id: "g76",
+    term: "Rủi ro đạo đức (Moral Hazard)",
+    definition:
+      "Sự gia tăng khả năng xảy ra tổn thất do tính không trung thực hoặc hành vi cố ý của người được bảo hiểm.",
+    category: "General",
+  },
+  {
+    id: "g77",
+    term: "Rủi ro tinh thần (Morale Hazard)",
+    definition:
+      "Sự gia tăng rủi ro do sự lơ là, bất cẩn của người được bảo hiểm vì biết rằng mình đã có bảo hiểm.",
+    category: "General",
+  },
+  {
+    id: "g78",
+    term: "Phí ngắn hạn (Short Rate Premium)",
+    definition:
+      "Mức phí áp dụng khi hợp đồng bảo hiểm bị hủy bỏ trước thời hạn bởi người mua bảo hiểm (thường cao hơn tỷ lệ tương ứng).",
+    category: "General",
+  },
+  {
+    id: "g79",
+    term: "Phí theo tỷ lệ (Pro-rata Premium)",
+    definition:
+      "Cách tính phí hoàn lại dựa trên số ngày thực tế còn lại của hợp đồng khi hủy bỏ.",
+    category: "General",
+  },
+  {
+    id: "g80",
+    term: "Giấy yêu cầu bảo hiểm (Proposal Form)",
+    definition:
+      "Văn bản do người mua bảo hiểm điền thông tin để làm cơ sở cho doanh nghiệp bảo hiểm đánh giá rủi ro.",
+    category: "General",
+  },
+  {
+    id: "g81",
+    term: "Thời hạn cân nhắc (Free-look Period)",
+    definition:
+      "Khoảng thời gian (thường 21 ngày) sau khi nhận hợp đồng mà khách hàng có quyền từ chối tham gia và nhận lại phí.",
+    category: "General",
+  },
+  {
+    id: "g82",
+    term: "Điều khoản trọng tài (Arbitration Clause)",
+    definition:
+      "Quy định về việc giải quyết tranh chấp thông qua trọng tài thương mại thay vì tòa án.",
+    category: "General",
+  },
+  {
+    id: "g83",
+    term: "Bảo hiểm mọi rủi ro (All Risks)",
+    definition:
+      "Loại hình bảo hiểm bao gồm tất cả các rủi ro, trừ những rủi ro bị loại trừ cụ thể trong hợp đồng.",
+    category: "General",
+  },
+  {
+    id: "g84",
+    term: "Tổn thất toàn bộ (Total Loss)",
+    definition:
+      "Khi tài sản bị phá hủy hoàn toàn hoặc chi phí sửa chữa vượt quá giá trị thực tế của tài sản.",
+    category: "General",
+  },
+  {
+    id: "g85",
+    term: "Tổn thất bộ phận (Partial Loss)",
+    definition:
+      "Thiệt hại chỉ xảy ra với một phần tài sản và có thể sửa chữa được.",
+    category: "General",
+  },
+  {
+    id: "g86",
+    term: "Biên khả năng thanh toán (Solvency Margin)",
+    definition:
+      "Chênh lệch giữa tài sản có và tài sản nợ, thước đo sức khỏe tài chính của công ty bảo hiểm.",
+    category: "General",
+  },
+  {
+    id: "g87",
+    term: "Khai báo rủi ro (Risk Declaration)",
+    definition:
+      "Nghĩa vụ của bên mua bảo hiểm phải thông báo mọi tình tiết quan trọng ảnh hưởng đến rủi ro.",
+    category: "General",
+  },
+  {
+    id: "g88",
+    term: "Người thẩm định (Underwriter)",
+    definition:
+      "Chuyên gia của công ty bảo hiểm chịu trách nhiệm đánh giá rủi ro và quyết định chấp nhận hay từ chối bảo hiểm.",
+    category: "General",
+  },
+  {
+    id: "g89",
+    term: "Chuyên gia tính phí (Actuary)",
+    definition:
+      "Người sử dụng toán học và thống kê để tính toán mức phí bảo hiểm và dự phòng nghiệp vụ.",
+    category: "General",
+  },
+  {
+    id: "g90",
+    term: "Phí quản lý (Administration Fee)",
+    definition:
+      "Khoản phí trích ra để chi trả cho chi phí vận hành doanh nghiệp bảo hiểm.",
+    category: "General",
+  },
+  {
+    id: "g91",
+    term: "Hoa hồng môi giới (Brokerage Fee)",
+    definition:
+      "Khoản tiền doanh nghiệp bảo hiểm trả cho môi giới bảo hiểm khi thu xếp hợp đồng thành công.",
+    category: "General",
+  },
+  {
+    id: "g92",
+    term: "Giấy chứng nhận tạm thời (Cover Note)",
+    definition:
+      "Văn bản xác nhận bảo hiểm tạm thời trong khi chờ phát hành đơn bảo hiểm chính thức.",
+    category: "General",
+  },
+  {
+    id: "g93",
+    term: "Ngày đáo hạn (Maturity Date)",
+    definition:
+      "Ngày kết thúc hợp đồng bảo hiểm nhân thọ, khi công ty chi trả số tiền bảo hiểm đáo hạn.",
+    category: "General",
+  },
+  {
+    id: "g94",
+    term: "Giá trị giải ước (Surrender Value)",
+    definition:
+      "Số tiền khách hàng nhận được khi chấm dứt hợp đồng nhân thọ trước hạn (tương tự giá trị hoàn lại).",
+    category: "General",
+  },
+  {
+    id: "g95",
+    term: "Bảo hiểm nhóm (Fleet Policy)",
+    definition:
+      "Đơn bảo hiểm cấp chung cho một nhóm tài sản (ví dụ: đội xe) hoặc nhóm người.",
+    category: "General",
+  },
+  {
+    id: "g96",
+    term: "Rủi ro hạt nhân (Nuclear Risk)",
+    definition:
+      "Rủi ro liên quan đến phóng xạ, hạt nhân - thường là điều khoản loại trừ tiêu chuẩn.",
+    category: "General",
+  },
+  {
+    id: "g97",
+    term: "Bất khả kháng (Force Majeure)",
+    definition:
+      "Sự kiện khách quan không thể lường trước (thiên tai, chiến tranh) làm miễn trừ trách nhiệm.",
+    category: "General",
+  },
+  {
+    id: "g98",
+    term: "Gian lận bảo hiểm (Insurance Fraud)",
+    definition: "Hành vi cố ý lừa dối công ty bảo hiểm để trục lợi bất chính.",
+    category: "General",
+  },
+  {
+    id: "g99",
+    term: "Luật kinh doanh bảo hiểm",
+    definition:
+      "Văn bản pháp luật cao nhất điều chỉnh hoạt động kinh doanh bảo hiểm tại Việt Nam.",
+    category: "General",
+  },
+  {
+    id: "g100",
+    term: "Hiệp hội bảo hiểm (Insurance Association)",
+    definition: "Tổ chức xã hội - nghề nghiệp của các doanh nghiệp bảo hiểm.",
+    category: "General",
+  },
 
   // --- Health / Sức khỏe --- (đã có 8, thêm 72 nữa)
   {
@@ -1052,7 +1260,283 @@ export const termsData: Term[] = [
       "Quyền lợi chi trả cho chăm sóc y tế thương binh và nạn nhân chiến tranh.",
     category: "Health",
   },
-
+  {
+    id: "h81",
+    term: "Nội soi (Endoscopy)",
+    definition:
+      "Thủ thuật y tế sử dụng ống soi để quan sát bên trong cơ thể, thường được bảo hiểm chi trả theo giới hạn.",
+    category: "Health",
+  },
+  {
+    id: "h82",
+    term: "Ý kiến y tế thứ hai (Second Medical Opinion)",
+    definition:
+      "Quyền lợi được tư vấn bởi một chuyên gia y tế khác để xác nhận chẩn đoán và phác đồ điều trị.",
+    category: "Health",
+  },
+  {
+    id: "h83",
+    term: "Phẫu thuật trong ngày (Day Surgery)",
+    definition:
+      "Phẫu thuật không cần nằm viện qua đêm nhưng vẫn được xem là điều trị nội trú ở một số gói bảo hiểm.",
+    category: "Health",
+  },
+  {
+    id: "h84",
+    term: "Bệnh bẩm sinh (Congenital Condition)",
+    definition:
+      "Các dị tật hoặc bệnh lý tồn tại từ khi mới sinh, thường bị loại trừ hoặc có thời gian chờ rất dài.",
+    category: "Health",
+  },
+  {
+    id: "h85",
+    term: "Thuốc gốc (Generic Drug)",
+    definition:
+      "Thuốc có cùng dược chất với thuốc biệt dược nhưng giá thành rẻ hơn, thường được ưu tiên chi trả.",
+    category: "Health",
+  },
+  {
+    id: "h86",
+    term: "Thuốc biệt dược (Brand Name Drug)",
+    definition:
+      "Thuốc bản quyền của nhà phát minh, thường có giá cao hơn thuốc Generic.",
+    category: "Health",
+  },
+  {
+    id: "h87",
+    term: "Thực phẩm chức năng (Supplements)",
+    definition:
+      "Sản phẩm hỗ trợ sức khỏe, vitamin, khoáng chất - thường thuộc điểm loại trừ của bảo hiểm sức khỏe.",
+    category: "Health",
+  },
+  {
+    id: "h88",
+    term: "Phẫu thuật thẩm mỹ (Cosmetic Surgery)",
+    definition:
+      "Phẫu thuật làm đẹp không vì mục đích chữa bệnh - luôn thuộc điểm loại trừ.",
+    category: "Health",
+  },
+  {
+    id: "h89",
+    term: "Biến chứng thai sản (Maternity Complications)",
+    definition:
+      "Các tình trạng bất thường nghiêm trọng trong thai kỳ (như thai ngoài tử cung, tiền sản giật) được bảo hiểm chi trả riêng.",
+    category: "Health",
+  },
+  {
+    id: "h90",
+    term: "Phòng dịch vụ (Private Room)",
+    definition:
+      "Phòng bệnh đơn, tiêu chuẩn cao hơn phòng chung, được chi trả tùy theo hạn mức ngày giường.",
+    category: "Health",
+  },
+  {
+    id: "h91",
+    term: "Khoa hồi sức tích cực (ICU)",
+    definition:
+      "Khu vực chăm sóc đặc biệt cho bệnh nhân nặng, thường có hạn mức chi trả cao hơn phòng thường.",
+    category: "Health",
+  },
+  {
+    id: "h92",
+    term: "Trợ cấp mất giảm thu nhập (Cash Benefit)",
+    definition:
+      "Số tiền cố định chi trả cho mỗi ngày nằm viện để bù đắp thu nhập bị mất.",
+    category: "Health",
+  },
+  {
+    id: "h93",
+    term: "Bác sĩ chuyên khoa (Specialist)",
+    definition:
+      "Bác sĩ có chứng chỉ chuyên sâu về một lĩnh vực (tim mạch, thần kinh...), phí khám thường cao hơn bác sĩ đa khoa.",
+    category: "Health",
+  },
+  {
+    id: "h94",
+    term: "Giấy chuyển tuyến (Referral Letter)",
+    definition:
+      "Văn bản của bác sĩ đa khoa/cơ sở ban đầu giới thiệu bệnh nhân lên tuyến trên hoặc bác sĩ chuyên khoa.",
+    category: "Health",
+  },
+  {
+    id: "h95",
+    term: "Bệnh mãn tính (Chronic Condition)",
+    definition:
+      "Bệnh kéo dài, không thể chữa khỏi hoàn toàn (tiểu đường, cao huyết áp), thường có giới hạn chi trả riêng.",
+    category: "Health",
+  },
+  {
+    id: "h96",
+    term: "Bệnh cấp tính (Acute Condition)",
+    definition:
+      "Bệnh xuất hiện đột ngột, diễn tiến nhanh và cần điều trị ngay lập tức.",
+    category: "Health",
+  },
+  {
+    id: "h97",
+    term: "Điều trị thay thế (Alternative Treatment)",
+    definition:
+      "Các phương pháp không thuộc y học phương tây (Homeopathy, Chiropractic) - chi trả hạn chế.",
+    category: "Health",
+  },
+  {
+    id: "h98",
+    term: "Vận chuyển y tế khẩn cấp (Emergency Evacuation)",
+    definition:
+      "Dịch vụ đưa bệnh nhân từ nơi xảy ra sự cố đến cơ sở y tế phù hợp gần nhất (kể cả bằng trực thăng).",
+    category: "Health",
+  },
+  {
+    id: "h99",
+    term: "Hồi hương thi hài (Repatriation of Mortal Remains)",
+    definition:
+      "Chi phí đưa thi hài người được bảo hiểm về quê hương/nơi cư trú trong trường hợp tử vong.",
+    category: "Health",
+  },
+  {
+    id: "h100",
+    term: "Giới hạn trọn đời (Lifetime Limit)",
+    definition:
+      "Tổng số tiền tối đa mà bảo hiểm sẽ chi trả cho một khách hàng trong suốt cuộc đời của họ.",
+    category: "Health",
+  },
+  {
+    id: "h101",
+    term: "Giới hạn theo năm (Annual Limit)",
+    definition: "Số tiền tối đa bảo hiểm chi trả trong một năm hợp đồng.",
+    category: "Health",
+  },
+  {
+    id: "h102",
+    term: "Bệnh đặc biệt (Special Disease)",
+    definition:
+      "Danh mục các bệnh như ung thư, u, sỏi, viêm xoang... thường có thời gian chờ 1 năm.",
+    category: "Health",
+  },
+  {
+    id: "h103",
+    term: "Thẻ bảo hiểm điện tử (E-card)",
+    definition:
+      "Thẻ bảo hiểm trên ứng dụng di động, có giá trị tương đương thẻ cứng khi bảo lãnh viện phí.",
+    category: "Health",
+  },
+  {
+    id: "h104",
+    term: "Hồ sơ bệnh án (Medical Record)",
+    definition:
+      "Tài liệu ghi chép toàn bộ quá trình khám chữa bệnh, là chứng từ quan trọng nhất khi bồi thường.",
+    category: "Health",
+  },
+  {
+    id: "h105",
+    term: "Toa thuốc (Prescription)",
+    definition:
+      "Chỉ định thuốc của bác sĩ, phải có chữ ký, dấu mộc và phù hợp với chẩn đoán bệnh.",
+    category: "Health",
+  },
+  {
+    id: "h106",
+    term: "Bảng kê chi tiết (Itemized Bill)",
+    definition:
+      "Danh sách liệt kê chi tiết từng khoản mục chi phí (thuốc, vật tư, dịch vụ) trong hóa đơn tổng.",
+    category: "Health",
+  },
+  {
+    id: "h107",
+    term: "Điều trị răng (Dental Treatment)",
+    definition:
+      "Bao gồm trám răng, nhổ răng, chữa tủy, cạo vôi. Làm răng giả/thẩm mỹ thường bị loại trừ.",
+    category: "Health",
+  },
+  {
+    id: "h108",
+    term: "Niềng răng (Orthodontics)",
+    definition:
+      "Chỉnh nha thẩm mỹ, đa số các gói bảo hiểm sức khỏe tiêu chuẩn đều loại trừ.",
+    category: "Health",
+  },
+  {
+    id: "h109",
+    term: "Mổ Lasik",
+    definition:
+      "Phẫu thuật điều trị tật khúc xạ mắt, thường chỉ được bảo hiểm ở các gói cao cấp với thời gian chờ.",
+    category: "Health",
+  },
+  {
+    id: "h110",
+    term: "Trợ cấp thai sản (Maternity Allowance)",
+    definition:
+      "Khoản tiền khoán chi trả cho việc sinh con, không phụ thuộc vào chi phí thực tế (ở một số loại hình).",
+    category: "Health",
+  },
+  {
+    id: "h111",
+    term: "Chăm sóc trẻ sau sinh",
+    definition: "Chi phí tắm bé, vệ sinh, chiếu đèn vàng da cho trẻ sơ sinh.",
+    category: "Health",
+  },
+  {
+    id: "h112",
+    term: "Vật tư y tế tiêu hao",
+    definition: "Bông, băng, gạc, kim tiêm sử dụng trong quá trình điều trị.",
+    category: "Health",
+  },
+  {
+    id: "h113",
+    term: "Cấy ghép bộ phận cơ thể",
+    definition:
+      "Chi phí mua tạng (thường bị loại trừ), chỉ chi trả chi phí phẫu thuật cấy ghép cho người nhận.",
+    category: "Health",
+  },
+  {
+    id: "h114",
+    term: "Lây nhiễm chéo (Cross Infection)",
+    definition:
+      "Việc lây bệnh từ bệnh nhân này sang bệnh nhân khác trong môi trường bệnh viện.",
+    category: "Health",
+  },
+  {
+    id: "h115",
+    term: "Bệnh dịch hạch (Plague)",
+    definition:
+      "Một trong các bệnh truyền nhiễm nguy hiểm, thường được quy định cụ thể trong điều khoản loại trừ/bảo hiểm.",
+    category: "Health",
+  },
+  {
+    id: "h116",
+    term: "Đại dịch (Pandemic)",
+    definition:
+      "Sự lây lan bệnh tật trên quy mô toàn cầu (như COVID-19). Việc chi trả phụ thuộc vào chính sách từng thời điểm.",
+    category: "Health",
+  },
+  {
+    id: "h117",
+    term: "Cách ly y tế (Quarantine)",
+    definition:
+      "Việc cách ly để kiểm soát dịch bệnh. Chi phí ăn ở trong khu cách ly thường không được bảo hiểm y tế chi trả.",
+    category: "Health",
+  },
+  {
+    id: "h118",
+    term: "Rối loạn giấc ngủ (Sleep Disorder)",
+    definition:
+      "Các bệnh lý liên quan đến giấc ngủ, thường bị loại trừ nếu không có nguyên nhân thực thể rõ ràng.",
+    category: "Health",
+  },
+  {
+    id: "h119",
+    term: "Phẫu thuật robot (Robotic Surgery)",
+    definition:
+      "Kỹ thuật phẫu thuật cao cấp dùng cánh tay robot, chi phí cao và có thể bị giới hạn phụ.",
+    category: "Health",
+  },
+  {
+    id: "h120",
+    term: "Dịch vụ xe lăn (Wheelchair Service)",
+    definition:
+      "Hỗ trợ di chuyển cho bệnh nhân khuyết tật hoặc chấn thương tại bệnh viện.",
+    category: "Health",
+  },
   // --- Car / Ô tô --- (đã có 5, thêm 45 nữa)
   {
     id: "c1",
@@ -1404,6 +1888,214 @@ export const termsData: Term[] = [
       "Bảo hiểm trách nhiệm cụ thể với hành khách trên xe khi xảy ra tai nạn.",
     category: "Car",
   },
+  {
+    id: "c51",
+    term: "Xe miễn thuế (Duty Free Vehicle)",
+    definition:
+      "Xe ô tô được nhập khẩu hoặc mua theo chế độ miễn thuế, giá trị bảo hiểm thường thấp hơn xe thường.",
+    category: "Car",
+  },
+  {
+    id: "c52",
+    term: "Chế tài bảo hiểm (Penalty)",
+    definition:
+      "Việc giảm trừ số tiền bồi thường (10-50%) do chủ xe vi phạm nghĩa vụ (như không thông báo kịp thời).",
+    category: "Car",
+  },
+  {
+    id: "c53",
+    term: "Xe tập lái",
+    definition:
+      "Xe dùng để đào tạo lái xe, rủi ro cao nên phí bảo hiểm thường cao hơn.",
+    category: "Car",
+  },
+  {
+    id: "c54",
+    term: "Niên hạn sử dụng xe",
+    definition:
+      "Thời gian tối đa xe được phép lưu hành (xe tải 25 năm, xe khách 20 năm). Xe hết niên hạn không được bảo hiểm.",
+    category: "Car",
+  },
+  {
+    id: "c55",
+    term: "Vùng hoạt động (Territorial Limits)",
+    definition:
+      "Phạm vi địa lý xe được bảo hiểm (thường là lãnh thổ Việt Nam). Mở rộng sang Lào/Campuchia cần mua thêm.",
+    category: "Car",
+  },
+  {
+    id: "c56",
+    term: "Túi khí (Airbag)",
+    definition:
+      "Thiết bị an toàn bung ra khi va chạm. Chi phí thay túi khí rất cao nên thường bị kiểm tra kỹ khi bồi thường.",
+    category: "Car",
+  },
+  {
+    id: "c57",
+    term: "Độ xe (Modification)",
+    definition:
+      "Việc thay đổi kết cấu, hình dáng xe so với thiết kế ban đầu. Nếu không khai báo, bảo hiểm có thể từ chối.",
+    category: "Car",
+  },
+  {
+    id: "c58",
+    term: "Biên bản hiện trường (Police Report)",
+    definition:
+      "Văn bản do cảnh sát giao thông lập tại nơi xảy ra tai nạn, là chứng từ quan trọng nhất cho vụ tổn thất lớn.",
+    category: "Car",
+  },
+  {
+    id: "c59",
+    term: "Lỗi hỗn hợp (Joint Fault)",
+    definition:
+      "Tai nạn do lỗi của cả hai bên. Bồi thường sẽ dựa trên tỷ lệ lỗi của từng bên.",
+    category: "Car",
+  },
+  {
+    id: "c60",
+    term: "Điểm mù (Blind Spot)",
+    definition:
+      "Vùng không gian tài xế không quan sát được qua gương, nguyên nhân của nhiều vụ va chạm.",
+    category: "Car",
+  },
+  {
+    id: "c61",
+    term: "Nồng độ cồn (Alcohol Concentration)",
+    definition:
+      "Lượng cồn trong máu/hơi thở. Nếu vượt mức 0 (theo luật VN hiện hành), bảo hiểm từ chối bồi thường 100%.",
+    category: "Car",
+  },
+  {
+    id: "c62",
+    term: "Giấy phép lái xe hợp lệ",
+    definition:
+      "Bằng lái đúng hạng, còn hạn sử dụng và không bị tước quyền sử dụng tại thời điểm tai nạn.",
+    category: "Car",
+  },
+  {
+    id: "c63",
+    term: "Đăng kiểm (Vehicle Inspection)",
+    definition:
+      "Giấy chứng nhận an toàn kỹ thuật. Xe hết hạn đăng kiểm khi gặp tai nạn sẽ bị từ chối bảo hiểm.",
+    category: "Car",
+  },
+  {
+    id: "c64",
+    term: "Kích bình (Jump Start)",
+    definition: "Dịch vụ hỗ trợ khởi động xe khi ắc quy bị yếu hoặc chết.",
+    category: "Car",
+  },
+  {
+    id: "c65",
+    term: "Kéo xe (Towing)",
+    definition:
+      "Dịch vụ cẩu/kéo xe về gara khi xe không thể tự di chuyển do tai nạn hoặc hỏng hóc.",
+    category: "Car",
+  },
+  {
+    id: "c66",
+    term: "Phim cách nhiệt (Window Tint)",
+    definition:
+      "Lớp phim dán kính. Nếu bị vỡ kính, bảo hiểm thường chi trả cả chi phí dán lại phim nếu có khai báo.",
+    category: "Car",
+  },
+  {
+    id: "c67",
+    term: "Camera hành trình (Dashcam)",
+    definition:
+      "Thiết bị ghi hình lái xe, là bằng chứng quan trọng để xác định nguyên nhân và lỗi trong tai nạn.",
+    category: "Car",
+  },
+  {
+    id: "c68",
+    term: "Vết xước dăm (Scratch)",
+    definition:
+      "Các vết trầy xước nhẹ trên sơn xe, thường được gom lại làm một vụ sơn tút (có thể tính miễn thường/vụ).",
+    category: "Car",
+  },
+  {
+    id: "c69",
+    term: "Sơn quây (Full Body Paint)",
+    definition:
+      "Việc sơn lại toàn bộ xe. Bảo hiểm thường không chi trả sơn quây trừ khi tai nạn làm hỏng toàn bộ vỏ xe.",
+    category: "Car",
+  },
+  {
+    id: "c70",
+    term: "Gara chính hãng (Authorized Workshop)",
+    definition:
+      "Xưởng sửa chữa ủy quyền của hãng xe, giá thành cao hơn gara ngoài.",
+    category: "Car",
+  },
+  {
+    id: "c71",
+    term: "Gara liên kết (Network Garage)",
+    definition:
+      "Các gara có ký hợp đồng bảo lãnh thanh toán với công ty bảo hiểm.",
+    category: "Car",
+  },
+  {
+    id: "c72",
+    term: "Tổn thất ước tính (Estimated Loss)",
+    definition: "Giá trị thiệt hại dự kiến do gara báo giá trước khi sửa chữa.",
+    category: "Car",
+  },
+  {
+    id: "c73",
+    term: "Duyệt giá (Approval)",
+    definition:
+      "Bước công ty bảo hiểm đồng ý với báo giá sửa chữa của gara để bắt đầu sửa.",
+    category: "Car",
+  },
+  {
+    id: "c74",
+    term: "Xe sang (Luxury Car)",
+    definition:
+      "Các dòng xe cao cấp (Mercedes, BMW...) thường có mức phí và mức miễn thường cao hơn.",
+    category: "Car",
+  },
+  {
+    id: "c75",
+    term: "Chở quá tải (Overloading)",
+    definition:
+      "Xe chở hàng hóa vượt quá trọng tải thiết kế. Tai nạn xảy ra trong tình trạng này sẽ bị chế tài.",
+    category: "Car",
+  },
+  {
+    id: "c76",
+    term: "Chở quá số người (Overcrowding)",
+    definition:
+      "Xe chở quá số người quy định. Bảo hiểm TNDS vẫn chi trả cho bên thứ 3, nhưng vật chất xe có thể bị chế tài.",
+    category: "Car",
+  },
+  {
+    id: "c77",
+    term: "Đường cấm (Prohibited Road)",
+    definition:
+      "Đường xe không được phép đi vào (đường ngược chiều, đường cấm tải). Đi vào đây gặp nạn sẽ bị từ chối.",
+    category: "Car",
+  },
+  {
+    id: "c78",
+    term: "Đua xe (Racing)",
+    definition:
+      "Hành vi đua xe trái phép là điểm loại trừ tuyệt đối trong mọi đơn bảo hiểm xe.",
+    category: "Car",
+  },
+  {
+    id: "c79",
+    term: "Cháy nổ kỹ thuật",
+    definition:
+      "Xe tự bốc cháy do chập điện hoặc lỗi kỹ thuật, không phải do tác động bên ngoài.",
+    category: "Car",
+  },
+  {
+    id: "c80",
+    term: "Mất chìa khóa (Key Loss)",
+    definition:
+      "Quyền lợi chi trả chi phí làm lại chìa khóa xe (smartkey) khi bị mất cắp hoặc thất lạc.",
+    category: "Car",
+  },
 
   // --- Life / Nhân thọ --- (đã có 4, thêm 36 nữa)
   {
@@ -1686,7 +2378,142 @@ export const termsData: Term[] = [
       "Quyền lợi cho phép nhận trước một phần số tiền bảo hiểm khi được chẩn đoán bệnh hiểm nghèo giai đoạn cuối.",
     category: "Life",
   },
-
+  {
+    id: "l41",
+    term: "Định phí (Pricing)",
+    definition:
+      "Quá trình xác định mức phí bảo hiểm phù hợp với rủi ro và chi phí.",
+    category: "Life",
+  },
+  {
+    id: "l42",
+    term: "Quỹ dự phòng (Reserve)",
+    definition:
+      "Khoản tiền công ty bảo hiểm phải trích lập để đảm bảo khả năng chi trả trong tương lai.",
+    category: "Life",
+  },
+  {
+    id: "l43",
+    term: "Lãi suất cam kết (Guaranteed Interest Rate)",
+    definition:
+      "Mức lãi suất tối thiểu mà công ty bảo hiểm cam kết trả cho khách hàng trong sản phẩm liên kết chung.",
+    category: "Life",
+  },
+  {
+    id: "l44",
+    term: "Lãi suất minh họa (Illustrative Interest Rate)",
+    definition:
+      "Mức lãi suất giả định dùng để minh họa dòng tiền, không phải là cam kết.",
+    category: "Life",
+  },
+  {
+    id: "l45",
+    term: "Đơn vị quỹ (Fund Unit)",
+    definition:
+      "Đơn vị đo lường giá trị đầu tư trong bảo hiểm liên kết đơn vị.",
+    category: "Life",
+  },
+  {
+    id: "l46",
+    term: "Giá đơn vị quỹ (Unit Price)",
+    definition: "Giá trị của một đơn vị quỹ tại thời điểm định giá.",
+    category: "Life",
+  },
+  {
+    id: "l47",
+    term: "Phí ban đầu (Initial Charge)",
+    definition:
+      "Khoản phí được khấu trừ từ phí bảo hiểm trước khi phân bổ vào tài khoản đầu tư.",
+    category: "Life",
+  },
+  {
+    id: "l48",
+    term: "Phí rủi ro (Cost of Insurance)",
+    definition:
+      "Khoản phí khấu trừ hàng tháng để chi trả cho quyền lợi bảo vệ (tử vong, thương tật).",
+    category: "Life",
+  },
+  {
+    id: "l49",
+    term: "Phí quản lý quỹ (Fund Management Fee)",
+    definition: "Phí trả cho công ty quản lý quỹ đầu tư.",
+    category: "Life",
+  },
+  {
+    id: "l50",
+    term: "Khôi phục hiệu lực (Reinstatement)",
+    definition:
+      "Quy trình làm cho hợp đồng có hiệu lực trở lại sau khi bị mất hiệu lực do không đóng phí.",
+    category: "Life",
+  },
+  {
+    id: "l51",
+    term: "Người được bảo hiểm bổ sung (Secondary Insured)",
+    definition:
+      "Người thân (vợ/chồng/con) được mua kèm bảo hiểm trong cùng hợp đồng với người chính.",
+    category: "Life",
+  },
+  {
+    id: "l52",
+    term: "Quyền lợi đáo hạn (Maturity Benefit)",
+    definition: "Số tiền nhận được khi kết thúc thời hạn hợp đồng.",
+    category: "Life",
+  },
+  {
+    id: "l53",
+    term: "Thẩm định sơ bộ (Pre-underwriting)",
+    definition:
+      "Việc đánh giá sơ bộ sức khỏe/tài chính trước khi nộp hồ sơ chính thức.",
+    category: "Life",
+  },
+  {
+    id: "l54",
+    term: "Khám sức khỏe thẩm định (Medical Exam)",
+    definition:
+      "Yêu cầu khách hàng đi khám sức khỏe tại phòng khám chỉ định để đánh giá rủi ro.",
+    category: "Life",
+  },
+  {
+    id: "l55",
+    term: "Tăng phí (Loading)",
+    definition:
+      "Việc áp dụng mức phí cao hơn chuẩn do khách hàng có rủi ro sức khỏe hoặc nghề nghiệp cao.",
+    category: "Life",
+  },
+  {
+    id: "l56",
+    term: "Loại trừ riêng (Specific Exclusion)",
+    definition:
+      "Điều khoản loại trừ cụ thể đối với một tình trạng bệnh lý của riêng khách hàng đó.",
+    category: "Life",
+  },
+  {
+    id: "l57",
+    term: "Hoãn bảo hiểm (Postponement)",
+    definition:
+      "Quyết định tạm thời chưa nhận bảo hiểm, chờ đánh giá lại sau một thời gian (ví dụ 6 tháng).",
+    category: "Life",
+  },
+  {
+    id: "l58",
+    term: "Từ chối bảo hiểm (Decline)",
+    definition: "Quyết định không nhận bảo hiểm do rủi ro quá cao.",
+    category: "Life",
+  },
+  {
+    id: "l59",
+    term: "Tuổi bảo hiểm (Insurance Age)",
+    definition:
+      "Tuổi của người được bảo hiểm tính theo sinh nhật vừa qua hoặc sinh nhật gần nhất.",
+    category: "Life",
+  },
+  {
+    id: "l60",
+    term: "Chuyển nhượng hợp đồng (Assignment)",
+    definition:
+      "Việc chuyển giao quyền sở hữu hợp đồng bảo hiểm cho người khác (tặng cho, thừa kế).",
+    category: "Life",
+  },
   // --- Travel / Du lịch --- (đã có 3, thêm 27 nữa)
   {
     id: "t1",
@@ -1897,6 +2724,626 @@ export const termsData: Term[] = [
     definition:
       "Bảo hiểm du lịch thiết kế riêng cho người trên 65 tuổi, có xem xét các bệnh có sẵn.",
     category: "Travel",
+  },
+  {
+    id: "t31",
+    term: "Visa bị từ chối (Visa Denial)",
+    definition:
+      "Quyền lợi chi trả chi phí xin visa hoặc hủy chuyến nếu visa bị đại sứ quán từ chối.",
+    category: "Travel",
+  },
+  {
+    id: "t32",
+    term: "Bắt cóc con tin (Hijack)",
+    definition:
+      "Trợ cấp tiền mặt cho mỗi ngày bị bắt cóc hoặc khống chế trên phương tiện vận tải.",
+    category: "Travel",
+  },
+  {
+    id: "t33",
+    term: "Thiên tai (Natural Disaster)",
+    definition: "Bão, lũ, động đất khiến chuyến đi bị hủy hoặc phải sơ tán.",
+    category: "Travel",
+  },
+  {
+    id: "t34",
+    term: "Thẻ tín dụng bị mất (Credit Card Fraud)",
+    definition:
+      "Bồi thường cho các giao dịch gian lận phát sinh khi thẻ tín dụng bị mất cắp ở nước ngoài.",
+    category: "Travel",
+  },
+  {
+    id: "t35",
+    term: "Chơi Golf (Golf Cover)",
+    definition:
+      "Bảo hiểm cho dụng cụ chơi golf và trách nhiệm hố golf (Hole-in-one) khi đi du lịch.",
+    category: "Travel",
+  },
+  {
+    id: "t36",
+    term: "Bảo hiểm trượt tuyết (Skiing Cover)",
+    definition:
+      "Mở rộng bảo hiểm cho tai nạn khi tham gia trượt tuyết giải trí.",
+    category: "Travel",
+  },
+  {
+    id: "t37",
+    term: "Hỗ trợ ngôn ngữ (Language Assistance)",
+    definition:
+      "Dịch vụ thông dịch qua điện thoại trong tình huống khẩn cấp ở nước ngoài.",
+    category: "Travel",
+  },
+  {
+    id: "t38",
+    term: "Mất tiền đặt cọc (Loss of Deposit)",
+    definition:
+      "Bồi thường tiền cọc khách sạn/tour không được hoàn lại khi hủy chuyến.",
+    category: "Travel",
+  },
+  {
+    id: "t39",
+    term: "Rủi ro khủng bố (Terrorism Extension)",
+    definition:
+      "Mở rộng bảo hiểm cho các sự cố liên quan đến khủng bố (thường bị loại trừ ở đơn tiêu chuẩn).",
+    category: "Travel",
+  },
+  {
+    id: "t40",
+    term: "Vùng chiến sự (War Zone)",
+    definition:
+      "Khu vực đang xảy ra chiến tranh, thường là điểm loại trừ tuyệt đối của bảo hiểm du lịch.",
+    category: "Travel",
+  },
+  {
+    id: "t41",
+    term: "Hộ chiếu vắc xin (Vaccine Passport)",
+    definition:
+      "Giấy tờ chứng minh tiêm chủng, sự thiếu hụt giấy tờ này có thể làm gián đoạn chuyến đi.",
+    category: "Travel",
+  },
+  {
+    id: "t42",
+    term: "Quá cảnh (Transit)",
+    definition:
+      "Thời gian dừng chờ tại sân bay trung gian. Bảo hiểm vẫn có hiệu lực trong khu vực quá cảnh.",
+    category: "Travel",
+  },
+  {
+    id: "t43",
+    term: "Hành lý xách tay (Carry-on)",
+    definition:
+      "Đồ đạc mang theo người lên máy bay. Rủi ro mất cắp thường thấp hơn ký gửi nhưng vẫn được bảo hiểm.",
+    category: "Travel",
+  },
+  {
+    id: "t44",
+    term: "Hành lý ký gửi (Checked Baggage)",
+    definition: "Hành lý gửi khoang hàng, dễ bị thất lạc hoặc hư hỏng nhất.",
+    category: "Travel",
+  },
+  {
+    id: "t45",
+    term: "Bảo hiểm người giúp việc (Domestic Helper)",
+    definition:
+      "Bảo hiểm cho người giúp việc đi cùng gia đình trong chuyến du lịch.",
+    category: "Travel",
+  },
+  {
+    id: "t46",
+    term: "Du lịch mạo hiểm (Adventure Travel)",
+    definition:
+      "Các chuyến đi có tính chất khám phá, leo núi, thám hiểm - cần mua gói mở rộng.",
+    category: "Travel",
+  },
+  {
+    id: "t47",
+    term: "Hỗ trợ lãnh sự (Consular Referral)",
+    definition:
+      "Giới thiệu và hỗ trợ liên hệ với đại sứ quán/lãnh sự quán khi gặp sự cố pháp lý.",
+    category: "Travel",
+  },
+  {
+    id: "t48",
+    term: "Chi phí điện thoại khẩn cấp",
+    definition:
+      "Bồi thường cước phí điện thoại gọi về tổng đài bảo hiểm khi gặp sự cố.",
+    category: "Travel",
+  },
+  {
+    id: "t49",
+    term: "Bảo lãnh viện phí quốc tế",
+    definition:
+      "Công ty bảo hiểm thanh toán trực tiếp cho bệnh viện nước ngoài (thường chỉ áp dụng nội trú chi phí lớn).",
+    category: "Travel",
+  },
+  {
+    id: "t50",
+    term: "Schengen",
+    definition:
+      "Khối các nước châu Âu yêu cầu bắt buộc phải có bảo hiểm du lịch mức 30.000 EUR để xin visa.",
+    category: "Travel",
+  },
+  // =================================================================
+  // DANH MỤC MỚI: PROPERTY (BẢO HIỂM NHÀ TƯ NHÂN/TÀI SẢN)
+  // =================================================================
+  {
+    id: "p1",
+    term: "Hỏa hoạn (Fire)",
+    definition:
+      "Cháy do lửa phát sinh ngoài kiểm soát, gây thiệt hại cho ngôi nhà và tài sản.",
+    category: "Property",
+  },
+  {
+    id: "p2",
+    term: "Sét đánh (Lightning)",
+    definition:
+      "Tia sét đánh trực tiếp vào ngôi nhà gây hư hỏng kiến trúc hoặc hệ thống điện.",
+    category: "Property",
+  },
+  {
+    id: "p3",
+    term: "Nổ (Explosion)",
+    definition:
+      "Nổ nồi hơi, bình gas hoặc các thiết bị áp suất trong gia đình gây thiệt hại.",
+    category: "Property",
+  },
+  {
+    id: "p4",
+    term: "Giông bão (Storm)",
+    definition:
+      "Gió mạnh, bão tố gây tốc mái, đổ tường hoặc hư hại cấu trúc nhà.",
+    category: "Property",
+  },
+  {
+    id: "p5",
+    term: "Lũ lụt (Flood)",
+    definition:
+      "Nước dâng cao từ sông, hồ, hoặc mưa lớn gây ngập lụt ngôi nhà.",
+    category: "Property",
+  },
+  {
+    id: "p6",
+    term: "Vỡ đường ống nước (Bursting of Pipes)",
+    definition:
+      "Nước tràn do vỡ hoặc tràn các bể chứa, thiết bị chứa nước hoặc đường ống dẫn.",
+    category: "Property",
+  },
+  {
+    id: "p7",
+    term: "Trộm cắp (Theft)",
+    definition:
+      "Hành vi lấy cắp tài sản (thường yêu cầu có dấu hiệu đột nhập hoặc sử dụng vũ lực).",
+    category: "Property",
+  },
+  {
+    id: "p8",
+    term: "Trộm đột nhập (Burglary)",
+    definition:
+      "Trộm cắp có để lại dấu vết cạy phá, đột nhập bất hợp pháp vào ngôi nhà.",
+    category: "Property",
+  },
+  {
+    id: "p9",
+    term: "Cướp (Robbery)",
+    definition:
+      "Hành vi dùng vũ lực hoặc đe dọa dùng vũ lực để chiếm đoạt tài sản.",
+    category: "Property",
+  },
+  {
+    id: "p10",
+    term: "Đâm va của xe cơ giới (Impact Damage)",
+    definition:
+      "Thiệt hại do xe cộ hoặc súc vật không thuộc quyền sở hữu của chủ nhà đâm vào ngôi nhà.",
+    category: "Property",
+  },
+  {
+    id: "p11",
+    term: "Máy bay rơi (Aircraft Damage)",
+    definition:
+      "Thiệt hại do máy bay hoặc các vật thể từ trên không rơi vào ngôi nhà.",
+    category: "Property",
+  },
+  {
+    id: "p12",
+    term: "Động đất (Earthquake)",
+    definition: "Rung chấn địa chất gây nứt, sập ngôi nhà.",
+    category: "Property",
+  },
+  {
+    id: "p13",
+    term: "Sụt lún (Subsidence)",
+    definition:
+      "Sự chuyển dịch của nền đất xuống phía dưới gây hư hại móng và kết cấu nhà.",
+    category: "Property",
+  },
+  {
+    id: "p14",
+    term: "Đất trồi (Heave)",
+    definition:
+      "Sự chuyển dịch của nền đất lên phía trên, ngược lại với sụt lún.",
+    category: "Property",
+  },
+  {
+    id: "p15",
+    term: "Sạt lở đất (Landslip)",
+    definition: "Đất đá từ trên cao trượt xuống đè vào ngôi nhà.",
+    category: "Property",
+  },
+  {
+    id: "p16",
+    term: "Chi phí dọn dẹp hiện trường (Removal of Debris)",
+    definition:
+      "Chi phí cần thiết để dọn dẹp xà bần, mảnh vụn sau tổn thất để sửa chữa lại nhà.",
+    category: "Property",
+  },
+  {
+    id: "p17",
+    term: "Chi phí chữa cháy (Firefighting Expenses)",
+    definition: "Chi phí hợp lý trả cho việc dập lửa hoặc ngăn chặn cháy lan.",
+    category: "Property",
+  },
+  {
+    id: "p18",
+    term: "Mất tiền thuê nhà (Loss of Rent)",
+    definition:
+      "Bồi thường tiền thuê nhà bị mất (nếu cho thuê) hoặc chi phí thuê nhà tạm (nếu để ở) khi nhà bị hỏng nặng.",
+    category: "Property",
+  },
+  {
+    id: "p19",
+    term: "Kính cố định (Fixed Glass)",
+    definition:
+      "Bảo hiểm cho các tấm kính lắp cố định (cửa sổ, cửa đi) bị vỡ do tai nạn bất ngờ.",
+    category: "Property",
+  },
+  {
+    id: "p20",
+    term: "Trách nhiệm công cộng (Public Liability)",
+    definition:
+      "Trách nhiệm bồi thường của chủ nhà đối với bên thứ ba (khách, hàng xóm) bị tai nạn trong khuôn viên nhà.",
+    category: "Property",
+  },
+  {
+    id: "p21",
+    term: "Tài sản bên trong (Contents)",
+    definition: "Đồ đạc, nội thất, thiết bị điện tử nằm bên trong ngôi nhà.",
+    category: "Property",
+  },
+  {
+    id: "p22",
+    term: "Khung nhà (Building)",
+    definition: "Phần kết cấu xây dựng bao gồm móng, tường, sàn, mái, cửa.",
+    category: "Property",
+  },
+  {
+    id: "p23",
+    term: "Vật quý (Valuables)",
+    definition:
+      "Trang sức, đá quý, tranh nghệ thuật - thường bị giới hạn số tiền bồi thường rất thấp hoặc loại trừ.",
+    category: "Property",
+  },
+  {
+    id: "p24",
+    term: "Hao mòn tự nhiên (Wear and Tear)",
+    definition:
+      "Sự xuống cấp do thời gian và sử dụng thông thường - luôn bị loại trừ.",
+    category: "Property",
+  },
+  {
+    id: "p25",
+    term: "Thông báo không người ở (Unoccupancy)",
+    definition:
+      "Quy định nhà không có người ở quá số ngày nhất định (thường 30-60 ngày) sẽ bị tạm dừng bảo hiểm.",
+    category: "Property",
+  },
+  {
+    id: "p26",
+    term: "Định giá lại (Reinstatement Value)",
+    definition:
+      "Cơ sở bồi thường theo giá trị xây mới lại, không tính khấu hao (New for Old).",
+    category: "Property",
+  },
+  {
+    id: "p27",
+    term: "Giá trị thị trường (Market Value)",
+    definition: "Giá trị tài sản tại thời điểm tổn thất, có tính đến khấu hao.",
+    category: "Property",
+  },
+  {
+    id: "p28",
+    term: "Cháy lan (Spreading Fire)",
+    definition: "Cháy từ nhà hàng xóm lan sang nhà được bảo hiểm.",
+    category: "Property",
+  },
+  {
+    id: "p29",
+    term: "Thiệt hại do nước (Water Damage)",
+    definition:
+      "Hư hỏng sàn gỗ, thạch cao, nội thất do nước mưa rò rỉ hoặc quên tắt vòi nước.",
+    category: "Property",
+  },
+  {
+    id: "p30",
+    term: "Kiến trúc sư và Giám sát (Architects & Surveyors Fees)",
+    definition:
+      "Chi phí thuê chuyên gia thiết kế lại ngôi nhà sau tổn thất, được bảo hiểm chi trả theo giới hạn.",
+    category: "Property",
+  },
+  {
+    id: "p31",
+    term: "Cây cối đổ (Falling Trees)",
+    definition:
+      "Cây cối gãy đổ đè vào nhà gây hư hỏng (không phải do người được bảo hiểm chặt).",
+    category: "Property",
+  },
+  {
+    id: "p32",
+    term: "Bảo hiểm trộm cướp tiền mặt (Cash in Safe)",
+    definition:
+      "Bảo hiểm cho tiền mặt để trong két sắt bị mất trộm (thường giới hạn nhỏ).",
+    category: "Property",
+  },
+  {
+    id: "p33",
+    term: "Hệ thống an ninh (Security System)",
+    definition:
+      "Hệ thống báo động, camera. Việc có lắp đặt có thể giúp giảm phí bảo hiểm.",
+    category: "Property",
+  },
+  {
+    id: "p34",
+    term: "Bảo trì (Maintenance)",
+    definition:
+      "Nghĩa vụ của chủ nhà phải duy trì ngôi nhà ở tình trạng tốt. Hư hỏng do thiếu bảo trì sẽ bị từ chối.",
+    category: "Property",
+  },
+  {
+    id: "p35",
+    term: "Chập điện (Short Circuit)",
+    definition:
+      "Nguyên nhân gây cháy phổ biến. Thiệt hại của chính thiết bị gây chập thường bị loại trừ, nhưng hậu quả cháy lan thì được bồi thường.",
+    category: "Property",
+  },
+  {
+    id: "p36",
+    term: "Cố ý phá hoại (Malicious Damage)",
+    definition: "Hành động cố ý gây hư hỏng tài sản của người khác (phá hoại).",
+    category: "Property",
+  },
+  {
+    id: "p37",
+    term: "Biểu tình, Bạo loạn (Riots, Strikes)",
+    definition: "Thiệt hại do các cuộc đình công, bạo động gây ra.",
+    category: "Property",
+  },
+  {
+    id: "p38",
+    term: "Tài sản di dời tạm thời (Temporary Removal)",
+    definition:
+      "Bảo hiểm cho tài sản được mang ra khỏi nhà tạm thời (để sửa chữa, vệ sinh) nếu bị tổn thất.",
+    category: "Property",
+  },
+  {
+    id: "p39",
+    term: "Đồ điện tử (Electronic Equipment)",
+    definition:
+      "TV, máy tính, dàn âm thanh - dễ bị hỏng do sét đánh lan truyền.",
+    category: "Property",
+  },
+  {
+    id: "p40",
+    term: "Sét lan truyền",
+    definition:
+      "Sét đánh vào đường dây điện/thoại gần đó truyền vào làm hỏng thiết bị điện trong nhà.",
+    category: "Property",
+  },
+  {
+    id: "p41",
+    term: "Khu vực chung cư (Apartment)",
+    definition:
+      "Căn hộ chung cư, thường chỉ cần mua bảo hiểm cho phần sở hữu riêng và nội thất.",
+    category: "Property",
+  },
+  {
+    id: "p42",
+    term: "Nhà liền kề (Townhouse)",
+    definition: "Loại hình nhà phố, nguy cơ cháy lan cao.",
+    category: "Property",
+  },
+  {
+    id: "p43",
+    term: "Biệt thự (Villa)",
+    definition:
+      "Nhà ở riêng biệt, thường có giá trị bảo hiểm cao và yêu cầu an ninh tốt.",
+    category: "Property",
+  },
+  {
+    id: "p44",
+    term: "Bảo hiểm cháy nổ bắt buộc",
+    definition:
+      "Loại hình bảo hiểm bắt buộc đối với chung cư, nhà ở kết hợp kinh doanh có nguy cơ cháy nổ.",
+    category: "Property",
+  },
+  {
+    id: "p45",
+    term: "Giá trị xây dựng (Reconstruction Cost)",
+    definition:
+      "Chi phí để xây lại ngôi nhà tương đương, không bao gồm giá trị đất.",
+    category: "Property",
+  },
+  {
+    id: "p46",
+    term: "Tài sản ngoài trời (Outdoor Contents)",
+    definition:
+      "Bàn ghế sân vườn, cây cảnh, tượng - thường bị loại trừ hoặc hạn chế bảo hiểm.",
+    category: "Property",
+  },
+  {
+    id: "p47",
+    term: "Thực phẩm trong tủ lạnh (Freezer Contents)",
+    definition:
+      "Quyền lợi bồi thường thực phẩm bị hư hỏng do tủ lạnh hỏng hoặc mất điện kéo dài.",
+    category: "Property",
+  },
+  {
+    id: "p48",
+    term: "Thay ổ khóa (Lock Replacement)",
+    definition: "Chi phí thay ổ khóa cửa chính nếu chìa khóa bị mất trộm.",
+    category: "Property",
+  },
+  {
+    id: "p49",
+    term: "Tài liệu kinh doanh (Business Books)",
+    definition: "Sổ sách, giấy tờ làm việc để tại nhà - thường bị loại trừ.",
+    category: "Property",
+  },
+  {
+    id: "p50",
+    term: "Tài sản của khách (Visitor's Effects)",
+    definition:
+      "Đồ dùng cá nhân của khách đến chơi nhà bị hư hỏng trong vụ hỏa hoạn.",
+    category: "Property",
+  },
+
+  // =================================================================
+  // DANH MỤC MỚI: MARINE (BẢO HIỂM HÀNG HẢI/VẬN CHUYỂN)
+  // =================================================================
+  {
+    id: "m1",
+    term: "Tổn thất chung (General Average)",
+    definition:
+      "Hy sinh hoặc chi phí đặc biệt được thực hiện một cách cố ý và hợp lý nhằm cứu tàu và hàng hóa thoát khỏi hiểm họa chung.",
+    category: "Marine",
+  },
+  {
+    id: "m2",
+    term: "Tổn thất riêng (Particular Average)",
+    definition:
+      "Tổn thất bộ phận của đối tượng bảo hiểm do rủi ro được bảo hiểm gây ra, không thuộc tổn thất chung.",
+    category: "Marine",
+  },
+  {
+    id: "m3",
+    term: "Bảo hiểm thân tàu (Hull Insurance)",
+    definition: "Bảo hiểm cho vỏ tàu, máy móc và các trang thiết bị trên tàu.",
+    category: "Marine",
+  },
+  {
+    id: "m4",
+    term: "Bảo hiểm hàng hóa (Cargo Insurance)",
+    definition:
+      "Bảo hiểm cho hàng hóa trong quá trình vận chuyển bằng đường biển, đường bộ, đường hàng không.",
+    category: "Marine",
+  },
+  {
+    id: "m5",
+    term: "Trách nhiệm dân sự chủ tàu (P&I)",
+    definition:
+      "Bảo hiểm trách nhiệm của chủ tàu đối với bên thứ ba (đâm va, ô nhiễm dầu, thuyền viên).",
+    category: "Marine",
+  },
+  {
+    id: "m6",
+    term: "Điều kiện A (Institute Cargo Clauses A)",
+    definition:
+      "Điều kiện bảo hiểm hàng hóa rộng nhất (mọi rủi ro), trừ các loại trừ quy định.",
+    category: "Marine",
+  },
+  {
+    id: "m7",
+    term: "Điều kiện B (Institute Cargo Clauses B)",
+    definition:
+      "Điều kiện bảo hiểm các rủi ro chính như cháy nổ, mắc cạn, đâm va, nước cuốn trôi...",
+    category: "Marine",
+  },
+  {
+    id: "m8",
+    term: "Điều kiện C (Institute Cargo Clauses C)",
+    definition:
+      "Điều kiện bảo hiểm hẹp nhất, chủ yếu cho các rủi ro thảm họa lớn (đắm tàu, cháy nổ).",
+    category: "Marine",
+  },
+  {
+    id: "m9",
+    term: "Incoterms",
+    definition:
+      "Các điều kiện thương mại quốc tế quy định trách nhiệm mua bảo hiểm của người bán và người mua (FOB, CIF...).",
+    category: "Marine",
+  },
+  {
+    id: "m10",
+    term: "CIF (Cost, Insurance, Freight)",
+    definition:
+      "Điều kiện giao hàng mà người bán chịu chi phí, bảo hiểm và cước phí đến cảng đến.",
+    category: "Marine",
+  },
+  {
+    id: "m11",
+    term: "FOB (Free On Board)",
+    definition:
+      "Điều kiện giao hàng mà trách nhiệm chuyển sang người mua khi hàng đã lên tàu (người mua tự mua bảo hiểm).",
+    category: "Marine",
+  },
+  {
+    id: "m12",
+    term: "Vận đơn (Bill of Lading)",
+    definition:
+      "Chứng từ vận tải đường biển do người chuyên chở cấp, là bằng chứng sở hữu hàng hóa.",
+    category: "Marine",
+  },
+  {
+    id: "m13",
+    term: "Mắc cạn (Stranding)",
+    definition: "Tàu bị kẹt trên nền đất/đá và không thể tự thoát ra được.",
+    category: "Marine",
+  },
+  {
+    id: "m14",
+    term: "Đắm tàu (Sinking)",
+    definition: "Tàu chìm hoàn toàn xuống nước và không thể nổi lên được.",
+    category: "Marine",
+  },
+  {
+    id: "m15",
+    term: "Ném hàng xuống biển (Jettison)",
+    definition:
+      "Hành động vứt bỏ hàng hóa để làm nhẹ tàu khi gặp nguy hiểm (được tính là tổn thất chung).",
+    category: "Marine",
+  },
+  {
+    id: "m16",
+    term: "Cướp biển (Piracy)",
+    definition:
+      "Hành vi tấn công, cướp tàu trên biển. Có thể được bảo hiểm hoặc loại trừ tùy điều kiện.",
+    category: "Marine",
+  },
+  {
+    id: "m17",
+    term: "Chi phí cứu hộ (Salvage Charges)",
+    definition:
+      "Chi phí trả cho người cứu hộ để cứu tài sản khỏi hiểm họa trên biển.",
+    category: "Marine",
+  },
+  {
+    id: "m18",
+    term: "Chiến tranh đình công (War & Strikes)",
+    definition:
+      "Điều khoản mở rộng bảo hiểm cho rủi ro chiến tranh và đình công trong vận chuyển hàng hóa.",
+    category: "Marine",
+  },
+  {
+    id: "m19",
+    term: "Hàng siêu trường siêu trọng",
+    definition:
+      "Hàng hóa có kích thước hoặc trọng lượng vượt quá quy định, yêu cầu phương tiện và bảo hiểm đặc thù.",
+    category: "Marine",
+  },
+  {
+    id: "m20",
+    term: "Kho đến Kho (Warehouse to Warehouse)",
+    definition:
+      "Phạm vi bảo hiểm bắt đầu từ kho người bán và kết thúc tại kho người mua.",
+    category: "Marine",
   },
 ];
 

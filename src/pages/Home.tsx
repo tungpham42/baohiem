@@ -21,7 +21,7 @@ const Home: React.FC = () => {
       title: "Thuật ngữ Bảo hiểm",
       icon: <BookOutlined style={{ fontSize: "32px", color: "#0050b3" }} />,
       description:
-        "Tra cứu hơn 300 thuật ngữ chuyên ngành bảo hiểm với định nghĩa chi tiết và dễ hiểu.",
+        "Tra cứu hơn 400 thuật ngữ chuyên ngành bảo hiểm với định nghĩa chi tiết và dễ hiểu.",
       link: "/thuat-ngu",
       color: "#e6f7ff",
     },
@@ -163,7 +163,7 @@ const Home: React.FC = () => {
           <Col xs={12} md={6} style={{ textAlign: "center" }}>
             <Statistic
               title="Thuật ngữ"
-              value={150}
+              value={400}
               suffix="+"
               styles={{ content: { color: "#0050b3", fontWeight: 700 } }}
             />
@@ -171,7 +171,7 @@ const Home: React.FC = () => {
           <Col xs={12} md={6} style={{ textAlign: "center" }}>
             <Statistic
               title="Cơ sở Y tế"
-              value={250}
+              value={300}
               suffix="+"
               styles={{ content: { color: "#0050b3", fontWeight: 700 } }}
             />

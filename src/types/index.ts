@@ -2,7 +2,14 @@ export interface Term {
   id: string;
   term: string;
   definition: string;
-  category: "General" | "Health" | "Car" | "Life" | "Travel"; // Đã thêm Life và Travel
+  category:
+    | "General"
+    | "Health"
+    | "Car"
+    | "Life"
+    | "Travel"
+    | "Property"
+    | "Marine";
 }
 
 export interface ClaimStep {

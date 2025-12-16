@@ -7,18 +7,21 @@ import { SearchOutlined, InfoCircleOutlined } from "@ant-design/icons";
 
 const { Title, Text } = Typography;
 
+// 1. Cập nhật map tên tiếng Việt cho 2 danh mục mới
 const categoryMap: Record<string, string> = {
   General: "Chung",
   Health: "Sức khỏe",
   Car: "Ô tô",
   Life: "Nhân thọ",
   Travel: "Du lịch",
+  Property: "Tài sản", // New
+  Marine: "Hàng hải", // New
 };
 
 const Glossary: React.FC = () => {
   const [data, setData] = useState<Term[]>(termsData);
   const [searchText, setSearchText] = useState("");
-  const [currentPage, setCurrentPage] = useState(1); // Added state for pagination
+  const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
     const value = searchText.toLowerCase();
@@ -28,7 +31,7 @@ const Glossary: React.FC = () => {
         item.definition.toLowerCase().includes(value)
     );
     setData(filtered);
-    setCurrentPage(1); // Reset to page 1 whenever search text changes
+    setCurrentPage(1);
   }, [searchText]);
 
   const columns: ColumnsType<Term> = [
@@ -60,22 +63,28 @@ const Glossary: React.FC = () => {
       dataIndex: "category",
       key: "category",
       width: "15%",
+      // 2. Cập nhật bộ lọc để bao gồm Property và Marine
       filters: [
         { text: "Chung", value: "General" },
         { text: "Sức khỏe", value: "Health" },
         { text: "Ô tô", value: "Car" },
         { text: "Nhân thọ", value: "Life" },
         { text: "Du lịch", value: "Travel" },
+        { text: "Tài sản", value: "Property" }, // New filter
+        { text: "Hàng hải", value: "Marine" }, // New filter
       ],
       onFilter: (value, record) => record.category === value,
       render: (cat) => {
         let color = "default";
-        // Soft pastel colors for a friendly look
+
+        // 3. Cập nhật logic màu sắc cho 2 danh mục mới
         if (cat === "Health") color = "success"; // Green
         else if (cat === "Car") color = "warning"; // Orange
         else if (cat === "Life") color = "purple"; // Purple
         else if (cat === "Travel") color = "cyan"; // Cyan
         else if (cat === "General") color = "blue"; // Blue
+        else if (cat === "Property") color = "magenta"; // Magenta (New)
+        else if (cat === "Marine") color = "geekblue"; // Geekblue (New)
 
         const vietnameseLabel = categoryMap[cat as string] || cat;
 
@@ -98,7 +107,7 @@ const Glossary: React.FC = () => {
           Từ điển Bảo hiểm
         </Title>
         <Text className="page-subtitle">
-          Giải thích hơn 300 thuật ngữ chuyên ngành một cách đơn giản và dễ hiểu
+          Giải thích hơn 500 thuật ngữ chuyên ngành một cách đơn giản và dễ hiểu
           nhất.
         </Text>
       </div>
@@ -111,7 +120,7 @@ const Glossary: React.FC = () => {
         <div style={{ marginBottom: 24, textAlign: "center" }}>
           <Input
             size="large"
-            placeholder="Bạn muốn tìm hiểu thuật ngữ nào? (Ví dụ: Miễn thường, Tái tục...)"
+            placeholder="Bạn muốn tìm hiểu thuật ngữ nào? (Ví dụ: Miễn thường, Tái tục, Hàng hải...)"
             prefix={
               <SearchOutlined style={{ color: "#bfbfbf", fontSize: 18 }} />
             }
@@ -138,8 +147,8 @@ const Glossary: React.FC = () => {
             ),
           }}
           pagination={{
-            current: currentPage, // Controlled current page
-            onChange: (page) => setCurrentPage(page), // Update state on page change
+            current: currentPage,
+            onChange: (page) => setCurrentPage(page),
             showSizeChanger: true,
             locale: { items_per_page: "/ trang" },
             showTotal: (total, range) => (
